@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3501A8EB1FB0E99500A40AB7 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 3501A8EA1FB0E98A00A40AB7 /* hamburger.png */; };
+		3511CF221FB059EC00FC28D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511CF211FB059EC00FC28D2 /* AppDelegate.swift */; };
+		3511CF241FB059EC00FC28D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511CF231FB059EC00FC28D2 /* ViewController.swift */; };
+		3511CF271FB059EC00FC28D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3511CF251FB059EC00FC28D2 /* Main.storyboard */; };
+		3511CF291FB059EC00FC28D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3511CF281FB059EC00FC28D2 /* Assets.xcassets */; };
+		3511CF2C1FB059EC00FC28D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3511CF2A1FB059EC00FC28D2 /* LaunchScreen.storyboard */; };
+		3511CF371FB059EC00FC28D2 /* VASTU_KOSHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511CF361FB059EC00FC28D2 /* VASTU_KOSHTests.swift */; };
+		3511CF421FB059EC00FC28D2 /* VASTU_KOSHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3511CF411FB059EC00FC28D2 /* VASTU_KOSHUITests.swift */; };
+		3511CF531FB05DB900FC28D2 /* hero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3511CF521FB05DAF00FC28D2 /* hero.jpg */; };
+		3511D0211FB078E500FC28D2 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3511D0201FB0772C00FC28D2 /* checkmark.png */; };
+		353281771FC0478600A39E1F /* BuyRentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353281761FC0478600A39E1F /* BuyRentView.swift */; };
+		353281791FC048BD00A39E1F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353281781FC048BD00A39E1F /* TableViewCell.swift */; };
+		3532817B1FC0513A00A39E1F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532817A1FC0513A00A39E1F /* ItemView.swift */; };
+		3554F1091FC344190000FA78 /* VerifyEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3554F1081FC344190000FA78 /* VerifyEmailView.swift */; };
+		358345391FCACBD800FE68E6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358345381FCACBD800FE68E6 /* ProfileView.swift */; };
+		3583453B1FCAD71400FE68E6 /* ProfileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3583453A1FCAD71400FE68E6 /* ProfileItemView.swift */; };
+		359530141FB1FE7E00640B24 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359530131FB1FE7E00640B24 /* AboutView.swift */; };
+		359530161FB20E9000640B24 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359530151FB20E8F00640B24 /* ContactView.swift */; };
+		359530181FB2105B00640B24 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 359530171FB2104E00640B24 /* fb.png */; };
+		3595301A1FB2110E00640B24 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 359530191FB210FF00640B24 /* twitter.png */; };
+		3595301C1FB2193600640B24 /* RentSellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595301B1FB2193600640B24 /* RentSellView.swift */; };
+		35E7EB861FC463BB005955FC /* GiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E7EB851FC463BA005955FC /* GiveView.swift */; };
+		3C72420A1FB3560F00862049 /* HomeViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7242091FB3560F00862049 /* HomeViewViewController.swift */; };
+		460C44B31FCD994B00723C9B /* LockerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C44B21FCD994B00723C9B /* LockerView.swift */; };
+		461BC9852025F066003C5A3E /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 461BC9842025F063003C5A3E /* bg.jpeg */; };
+		5267AFC72026FF900055240B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267AFC62026FF900055240B /* EditProfileView.swift */; };
+		52DC01ED2024A34D00985F1D /* T&CView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC01EC2024A34C00985F1D /* T&CView.swift */; };
+		52E438CE202A0B8400BEDAD8 /* AdhaarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E438CD202A0B8400BEDAD8 /* AdhaarInfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3511CF331FB059EC00FC28D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3511CF161FB059EB00FC28D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3511CF1D1FB059EC00FC28D2;
+			remoteInfo = "VASTU KOSH";
+		};
+		3511CF3E1FB059EC00FC28D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3511CF161FB059EB00FC28D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3511CF1D1FB059EC00FC28D2;
+			remoteInfo = "VASTU KOSH";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3501A8EA1FB0E98A00A40AB7 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = SOURCE_ROOT; };
+		3511CF1E1FB059EC00FC28D2 /* VASTU KOSH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VASTU KOSH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511CF211FB059EC00FC28D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3511CF231FB059EC00FC28D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3511CF261FB059EC00FC28D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3511CF281FB059EC00FC28D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3511CF2B1FB059EC00FC28D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3511CF2D1FB059EC00FC28D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511CF321FB059EC00FC28D2 /* VASTU KOSHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VASTU KOSHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511CF361FB059EC00FC28D2 /* VASTU_KOSHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTU_KOSHTests.swift; sourceTree = "<group>"; };
+		3511CF381FB059EC00FC28D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511CF3D1FB059EC00FC28D2 /* VASTU KOSHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VASTU KOSHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511CF411FB059EC00FC28D2 /* VASTU_KOSHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VASTU_KOSHUITests.swift; sourceTree = "<group>"; };
+		3511CF431FB059EC00FC28D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511CF521FB05DAF00FC28D2 /* hero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hero.jpg; sourceTree = SOURCE_ROOT; };
+		3511D0201FB0772C00FC28D2 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = SOURCE_ROOT; };
+		353281761FC0478600A39E1F /* BuyRentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyRentView.swift; sourceTree = "<group>"; };
+		353281781FC048BD00A39E1F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3532817A1FC0513A00A39E1F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		3554F1081FC344190000FA78 /* VerifyEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailView.swift; sourceTree = "<group>"; };
+		358345381FCACBD800FE68E6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3583453A1FCAD71400FE68E6 /* ProfileItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItemView.swift; sourceTree = "<group>"; };
+		359530131FB1FE7E00640B24 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		359530151FB20E8F00640B24 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		359530171FB2104E00640B24 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = SOURCE_ROOT; };
+		359530191FB210FF00640B24 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = SOURCE_ROOT; };
+		3595301B1FB2193600640B24 /* RentSellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentSellView.swift; sourceTree = "<group>"; };
+		35E7EB851FC463BA005955FC /* GiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveView.swift; sourceTree = "<group>"; };
+		3C7242091FB3560F00862049 /* HomeViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewController.swift; sourceTree = "<group>"; };
+		460C44B21FCD994B00723C9B /* LockerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerView.swift; sourceTree = "<group>"; };
+		461BC9842025F063003C5A3E /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = SOURCE_ROOT; };
+		5267AFC62026FF900055240B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		52DC01EC2024A34C00985F1D /* T&CView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T&CView.swift"; sourceTree = "<group>"; };
+		52E438CD202A0B8400BEDAD8 /* AdhaarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhaarInfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3511CF1B1FB059EC00FC28D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511CF2F1FB059EC00FC28D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511CF3A1FB059EC00FC28D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3511CF151FB059EB00FC28D2 = {
+			isa = PBXGroup;
+			children = (
+				3511CF201FB059EC00FC28D2 /* VASTU KOSH */,
+				3511CF351FB059EC00FC28D2 /* VASTU KOSHTests */,
+				3511CF401FB059EC00FC28D2 /* VASTU KOSHUITests */,
+				3511CF1F1FB059EC00FC28D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3511CF1F1FB059EC00FC28D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3511CF1E1FB059EC00FC28D2 /* VASTU KOSH.app */,
+				3511CF321FB059EC00FC28D2 /* VASTU KOSHTests.xctest */,
+				3511CF3D1FB059EC00FC28D2 /* VASTU KOSHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3511CF201FB059EC00FC28D2 /* VASTU KOSH */ = {
+			isa = PBXGroup;
+			children = (
+				3511CF211FB059EC00FC28D2 /* AppDelegate.swift */,
+				3511CF231FB059EC00FC28D2 /* ViewController.swift */,
+				3511CF251FB059EC00FC28D2 /* Main.storyboard */,
+				52E438CD202A0B8400BEDAD8 /* AdhaarInfoView.swift */,
+				5267AFC62026FF900055240B /* EditProfileView.swift */,
+				52DC01EC2024A34C00985F1D /* T&CView.swift */,
+				460C44B21FCD994B00723C9B /* LockerView.swift */,
+				3583453A1FCAD71400FE68E6 /* ProfileItemView.swift */,
+				358345381FCACBD800FE68E6 /* ProfileView.swift */,
+				35E7EB851FC463BA005955FC /* GiveView.swift */,
+				3554F1081FC344190000FA78 /* VerifyEmailView.swift */,
+				3532817A1FC0513A00A39E1F /* ItemView.swift */,
+				353281781FC048BD00A39E1F /* TableViewCell.swift */,
+				353281761FC0478600A39E1F /* BuyRentView.swift */,
+				3C7242091FB3560F00862049 /* HomeViewViewController.swift */,
+				3595301B1FB2193600640B24 /* RentSellView.swift */,
+				359530151FB20E8F00640B24 /* ContactView.swift */,
+				359530131FB1FE7E00640B24 /* AboutView.swift */,
+				3511CF281FB059EC00FC28D2 /* Assets.xcassets */,
+				3511CF2A1FB059EC00FC28D2 /* LaunchScreen.storyboard */,
+				3511CF2D1FB059EC00FC28D2 /* Info.plist */,
+				3511CF521FB05DAF00FC28D2 /* hero.jpg */,
+				3511D0201FB0772C00FC28D2 /* checkmark.png */,
+				3501A8EA1FB0E98A00A40AB7 /* hamburger.png */,
+				359530171FB2104E00640B24 /* fb.png */,
+				359530191FB210FF00640B24 /* twitter.png */,
+				461BC9842025F063003C5A3E /* bg.jpeg */,
+			);
+			path = "VASTU KOSH";
+			sourceTree = "<group>";
+		};
+		3511CF351FB059EC00FC28D2 /* VASTU KOSHTests */ = {
+			isa = PBXGroup;
+			children = (
+				3511CF361FB059EC00FC28D2 /* VASTU_KOSHTests.swift */,
+				3511CF381FB059EC00FC28D2 /* Info.plist */,
+			);
+			path = "VASTU KOSHTests";
+			sourceTree = "<group>";
+		};
+		3511CF401FB059EC00FC28D2 /* VASTU KOSHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3511CF411FB059EC00FC28D2 /* VASTU_KOSHUITests.swift */,
+				3511CF431FB059EC00FC28D2 /* Info.plist */,
+			);
+			path = "VASTU KOSHUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3511CF1D1FB059EC00FC28D2 /* VASTU KOSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3511CF461FB059EC00FC28D2 /* Build configuration list for PBXNativeTarget "VASTU KOSH" */;
+			buildPhases = (
+				3511CF1A1FB059EC00FC28D2 /* Sources */,
+				3511CF1B1FB059EC00FC28D2 /* Frameworks */,
+				3511CF1C1FB059EC00FC28D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VASTU KOSH";
+			productName = "VASTU KOSH";
+			productReference = 3511CF1E1FB059EC00FC28D2 /* VASTU KOSH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3511CF311FB059EC00FC28D2 /* VASTU KOSHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3511CF491FB059EC00FC28D2 /* Build configuration list for PBXNativeTarget "VASTU KOSHTests" */;
+			buildPhases = (
+				3511CF2E1FB059EC00FC28D2 /* Sources */,
+				3511CF2F1FB059EC00FC28D2 /* Frameworks */,
+				3511CF301FB059EC00FC28D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3511CF341FB059EC00FC28D2 /* PBXTargetDependency */,
+			);
+			name = "VASTU KOSHTests";
+			productName = "VASTU KOSHTests";
+			productReference = 3511CF321FB059EC00FC28D2 /* VASTU KOSHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3511CF3C1FB059EC00FC28D2 /* VASTU KOSHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3511CF4C1FB059EC00FC28D2 /* Build configuration list for PBXNativeTarget "VASTU KOSHUITests" */;
+			buildPhases = (
+				3511CF391FB059EC00FC28D2 /* Sources */,
+				3511CF3A1FB059EC00FC28D2 /* Frameworks */,
+				3511CF3B1FB059EC00FC28D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3511CF3F1FB059EC00FC28D2 /* PBXTargetDependency */,
+			);
+			name = "VASTU KOSHUITests";
+			productName = "VASTU KOSHUITests";
+			productReference = 3511CF3D1FB059EC00FC28D2 /* VASTU KOSHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3511CF161FB059EB00FC28D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Siddhartha Dhar Choudhury";
+				TargetAttributes = {
+					3511CF1D1FB059EC00FC28D2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3511CF311FB059EC00FC28D2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3511CF1D1FB059EC00FC28D2;
+					};
+					3511CF3C1FB059EC00FC28D2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3511CF1D1FB059EC00FC28D2;
+					};
+				};
+			};
+			buildConfigurationList = 3511CF191FB059EB00FC28D2 /* Build configuration list for PBXProject "VASTU KOSH" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3511CF151FB059EB00FC28D2;
+			productRefGroup = 3511CF1F1FB059EC00FC28D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3511CF1D1FB059EC00FC28D2 /* VASTU KOSH */,
+				3511CF311FB059EC00FC28D2 /* VASTU KOSHTests */,
+				3511CF3C1FB059EC00FC28D2 /* VASTU KOSHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3511CF1C1FB059EC00FC28D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3595301A1FB2110E00640B24 /* twitter.png in Resources */,
+				359530181FB2105B00640B24 /* fb.png in Resources */,
+				3501A8EB1FB0E99500A40AB7 /* hamburger.png in Resources */,
+				461BC9852025F066003C5A3E /* bg.jpeg in Resources */,
+				3511D0211FB078E500FC28D2 /* checkmark.png in Resources */,
+				3511CF531FB05DB900FC28D2 /* hero.jpg in Resources */,
+				3511CF2C1FB059EC00FC28D2 /* LaunchScreen.storyboard in Resources */,
+				3511CF291FB059EC00FC28D2 /* Assets.xcassets in Resources */,
+				3511CF271FB059EC00FC28D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511CF301FB059EC00FC28D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511CF3B1FB059EC00FC28D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3511CF1A1FB059EC00FC28D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353281771FC0478600A39E1F /* BuyRentView.swift in Sources */,
+				3583453B1FCAD71400FE68E6 /* ProfileItemView.swift in Sources */,
+				5267AFC72026FF900055240B /* EditProfileView.swift in Sources */,
+				460C44B31FCD994B00723C9B /* LockerView.swift in Sources */,
+				358345391FCACBD800FE68E6 /* ProfileView.swift in Sources */,
+				52DC01ED2024A34D00985F1D /* T&CView.swift in Sources */,
+				359530141FB1FE7E00640B24 /* AboutView.swift in Sources */,
+				52E438CE202A0B8400BEDAD8 /* AdhaarInfoView.swift in Sources */,
+				3511CF241FB059EC00FC28D2 /* ViewController.swift in Sources */,
+				3532817B1FC0513A00A39E1F /* ItemView.swift in Sources */,
+				3554F1091FC344190000FA78 /* VerifyEmailView.swift in Sources */,
+				353281791FC048BD00A39E1F /* TableViewCell.swift in Sources */,
+				3C72420A1FB3560F00862049 /* HomeViewViewController.swift in Sources */,
+				3511CF221FB059EC00FC28D2 /* AppDelegate.swift in Sources */,
+				3595301C1FB2193600640B24 /* RentSellView.swift in Sources */,
+				359530161FB20E9000640B24 /* ContactView.swift in Sources */,
+				35E7EB861FC463BB005955FC /* GiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511CF2E1FB059EC00FC28D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511CF371FB059EC00FC28D2 /* VASTU_KOSHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3511CF391FB059EC00FC28D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3511CF421FB059EC00FC28D2 /* VASTU_KOSHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3511CF341FB059EC00FC28D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3511CF1D1FB059EC00FC28D2 /* VASTU KOSH */;
+			targetProxy = 3511CF331FB059EC00FC28D2 /* PBXContainerItemProxy */;
+		};
+		3511CF3F1FB059EC00FC28D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3511CF1D1FB059EC00FC28D2 /* VASTU KOSH */;
+			targetProxy = 3511CF3E1FB059EC00FC28D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3511CF251FB059EC00FC28D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3511CF261FB059EC00FC28D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3511CF2A1FB059EC00FC28D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3511CF2B1FB059EC00FC28D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3511CF441FB059EC00FC28D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3511CF451FB059EC00FC28D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3511CF471FB059EC00FC28D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN6XPWTG6Z;
+				INFOPLIST_FILE = "VASTU KOSH/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddhartha.VASTU-KOSH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3511CF481FB059EC00FC28D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN6XPWTG6Z;
+				INFOPLIST_FILE = "VASTU KOSH/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddhartha.VASTU-KOSH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3511CF4A1FB059EC00FC28D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN6XPWTG6Z;
+				INFOPLIST_FILE = "VASTU KOSHTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddhartha.VASTU-KOSHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VASTU KOSH.app/VASTU KOSH";
+			};
+			name = Debug;
+		};
+		3511CF4B1FB059EC00FC28D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN6XPWTG6Z;
+				INFOPLIST_FILE = "VASTU KOSHTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddhartha.VASTU-KOSHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VASTU KOSH.app/VASTU KOSH";
+			};
+			name = Release;
+		};
+		3511CF4D1FB059EC00FC28D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN6XPWTG6Z;
+				INFOPLIST_FILE = "VASTU KOSHUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddhartha.VASTU-KOSHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VASTU KOSH";
+			};
+			name = Debug;
+		};
+		3511CF4E1FB059EC00FC28D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VN6XPWTG6Z;
+				INFOPLIST_FILE = "VASTU KOSHUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siddhartha.VASTU-KOSHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VASTU KOSH";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3511CF191FB059EB00FC28D2 /* Build configuration list for PBXProject "VASTU KOSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511CF441FB059EC00FC28D2 /* Debug */,
+				3511CF451FB059EC00FC28D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511CF461FB059EC00FC28D2 /* Build configuration list for PBXNativeTarget "VASTU KOSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511CF471FB059EC00FC28D2 /* Debug */,
+				3511CF481FB059EC00FC28D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511CF491FB059EC00FC28D2 /* Build configuration list for PBXNativeTarget "VASTU KOSHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511CF4A1FB059EC00FC28D2 /* Debug */,
+				3511CF4B1FB059EC00FC28D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3511CF4C1FB059EC00FC28D2 /* Build configuration list for PBXNativeTarget "VASTU KOSHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3511CF4D1FB059EC00FC28D2 /* Debug */,
+				3511CF4E1FB059EC00FC28D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3511CF161FB059EB00FC28D2 /* Project object */;
+}
