@@ -46,7 +46,7 @@ class AdhaarInfoView: UIViewController, UIImagePickerControllerDelegate, UINavig
             
             if(adhaarField.text?.count == 12) {
                 
-                let url1 = "http://vastukosh-com.stackstaging.com?putAdhaar=1"
+                let url1 = "http://<website-link>?putAdhaar=1"
                 let url2 = "&adhaar=" + adhaarField.text!
                 let url3 = "&image=image" + String(self.imageNumber) + ".jpg"
                 let url4 = "&id=90"
@@ -140,7 +140,7 @@ class AdhaarInfoView: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         activityIndicator.isHidden = true
         
-        let url = URL(string: "http://vastukosh-com.stackstaging.com?getIdImage=1")
+        let url = URL(string: "http://<website-link>?getIdImage=1")
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
@@ -185,7 +185,7 @@ class AdhaarInfoView: UIViewController, UIImagePickerControllerDelegate, UINavig
     func myImageUploadRequest()
     {
         
-        let myUrl = NSURL(string: "http://vastukosh-com.stackstaging.com/idupload.php");
+        let myUrl = NSURL(string: "http://<website-link>/idupload.php");
         
         let request = NSMutableURLRequest(url:myUrl! as URL);
         request.httpMethod = "POST";
