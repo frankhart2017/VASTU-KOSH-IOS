@@ -78,7 +78,7 @@ class ViewController: UIViewController {
                 
                 self.present(alert, animated: true, completion: nil)
             } else {
-                let url = URL(string: "http://vastukosh-com.stackstaging.com?email="+forgotEmail.text!+"&forgot=1")!
+                let url = URL(string: "http://<website-link>?email="+forgotEmail.text!+"&forgot=1")!
                 
                 let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
                     
@@ -222,7 +222,7 @@ class ViewController: UIViewController {
             
             if(isValidEmail(testStr: logEmail.text!)) {
                 
-                let url = URL(string: "http://vastukosh-com.stackstaging.com?email="+logEmail.text!+"&pass="+logPassword.text!+"&log=1")!
+                let url = URL(string: "http://<website-link>?email="+logEmail.text!+"&pass="+logPassword.text!+"&log=1")!
                 
                 let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
                     
