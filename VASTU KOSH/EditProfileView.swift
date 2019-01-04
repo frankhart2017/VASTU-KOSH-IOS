@@ -59,7 +59,7 @@ class EditProfileView: UIViewController {
     }
     @IBAction func savePass(_ sender: Any) {
         if(oldpassField.text != "" && newpassField.text != "" && confirmpassField.text != "") {
-            let url1 = "http://vastukosh-com.stackstaging.com?editProfile=1&id=90"
+            let url1 = "http://<website-link>?editProfile=1&id=90"
             let url2 = "&editPassword=" + newpassField.text!
             let url3 = "&editOldPassword=" + oldpassField.text!
             let url = URL(string: url1 + url2 + url3)
@@ -126,7 +126,7 @@ class EditProfileView: UIViewController {
         }
     }
     @IBAction func saveChanges(_ sender: Any) {
-        let url1 = "http://vastukosh-com.stackstaging.com?editProfile=1&id=90"
+        let url1 = "http://<website-link>?editProfile=1&id=90"
         var nameUrl : String = ""
         var locationUrl : String = ""
         var addressUrl: String = ""
