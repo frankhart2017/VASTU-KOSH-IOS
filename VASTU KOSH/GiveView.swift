@@ -57,7 +57,7 @@ class GiveView: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITa
     
         let originalString = cname.text!
         let urlString = originalString.replacingOccurrences(of: " ", with: "%20")
-        let url = URL(string: "http://vastukosh-com.stackstaging.com?give=2&iid=" + iid.text! + "&charity=" + urlString)
+        let url = URL(string: "http://<website-link>?give=2&iid=" + iid.text! + "&charity=" + urlString)
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
@@ -197,7 +197,7 @@ class GiveView: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITa
         
         
         
-        let url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?give=1&id=90")
+        let url = URL(string: "http://<website-link>/index.php?give=1&id=90")
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
