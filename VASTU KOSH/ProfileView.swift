@@ -84,7 +84,7 @@ class ProfileView: UIViewController, UITableViewDelegate, UITableViewDataSource 
 
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?profile=1&id=90")
+        let url = URL(string: "http://<website-link>/index.php?profile=1&id=90")
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
@@ -145,7 +145,7 @@ class ProfileView: UIViewController, UITableViewDelegate, UITableViewDataSource 
                             self.soldTable.reloadData()
                             self.giveTable.reloadData()
                             
-                            let url1 = URL(string: "http://vastukosh-com.stackstaging.com/images/" + self.image)!
+                            let url1 = URL(string: "http://<website-link>/images/" + self.image)!
                             let request = NSMutableURLRequest(url: url1)
                             let task = URLSession.shared.dataTask(with: request as URLRequest) {
                                 data, response, error in
