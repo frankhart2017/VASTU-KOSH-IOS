@@ -343,7 +343,7 @@ class ViewController: UIViewController {
                 let name = signName.text?.replacingOccurrences(of: " ", with: "%20")
                 let location = signLocation.text?.replacingOccurrences(of: " ", with: "%20")
                 let address = signAddress.text?.replacingOccurrences(of: " ", with: "%20")
-                let url1 = "http://vastukosh-com.stackstaging.com?name="+name!
+                let url1 = "http://<website-link>?name="+name!
                 let url2 = "&location="+location!+"&address="+address!
                 let url21 = "&mobile="
                 let url3 = signMobile.text!+"&email="+signEmail.text!
