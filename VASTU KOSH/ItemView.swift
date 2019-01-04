@@ -54,7 +54,7 @@ class ItemView: UIViewController {
             
         } else {
             
-            let url1 = "http://vastukosh-com.stackstaging.com/index.php?interested=1&iid=" + id
+            let url1 = "http://<website-link>/index.php?interested=1&iid=" + id
             let url2 = "&name=Ananthu&oprice=" + offerPrice.text!
             var url3 = "&type=1"
             if(pType == 2) {
@@ -141,10 +141,10 @@ class ItemView: UIViewController {
         let data = NSData(contentsOf: (imgURL)!)
         imgView.image = UIImage(data: data! as Data)
         
-        var url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?details=1&iid=" + id)
+        var url = URL(string: "http://<website-link>/index.php?details=1&iid=" + id)
         
         if(pType == 2) {
-            url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?details=2&iid=" + id)
+            url = URL(string: "http://<website-link>/index.php?details=2&iid=" + id)
         }
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
