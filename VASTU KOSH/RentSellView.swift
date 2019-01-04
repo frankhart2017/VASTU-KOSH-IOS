@@ -85,7 +85,7 @@ class RentSellView: UIViewController, UITextFieldDelegate, UITableViewDelegate, 
             
             if(type == "2" || (type == "1" && iduration.text != "")) {
             
-                let url1 = "http://vastukosh-com.stackstaging.com?iid=" + iid.text!
+                let url1 = "http://<website-link>?iid=" + iid.text!
                 let url2 = "&id=90&price=" + iprice.text!
                 let url3 = "&type=" + type + "&put=1"
                 var url = URL(string: url1+url2+url3)
@@ -189,7 +189,7 @@ class RentSellView: UIViewController, UITextFieldDelegate, UITableViewDelegate, 
         
         
         
-        let url = URL(string: "http://vastukosh-com.stackstaging.com?id=90&items=1")
+        let url = URL(string: "http://<website-link>?id=90&items=1")
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
