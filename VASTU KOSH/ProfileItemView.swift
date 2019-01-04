@@ -53,7 +53,7 @@ class ProfileItemView: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?profile=" + String(itype) + "&iid=" + iid)
+        let url = URL(string: "http://<website-link>/index.php?profile=" + String(itype) + "&iid=" + iid)
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
@@ -87,7 +87,7 @@ class ProfileItemView: UIViewController {
                                 self.ipriceLabel.text = ""
                             }
                             
-                            let url1 = URL(string: "http://vastukosh-com.stackstaging.com/img/items/" + self.itemImg)!
+                            let url1 = URL(string: "http://<website-link>/img/items/" + self.itemImg)!
                             let request = NSMutableURLRequest(url: url1)
                             let task = URLSession.shared.dataTask(with: request as URLRequest) {
                                 data, response, error in
