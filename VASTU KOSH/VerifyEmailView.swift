@@ -4,7 +4,7 @@ class VerifyEmailView: UIViewController {
     
     @IBAction func resendEmail(_ sender: Any) {
         
-        let url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?resend=1&id=90")
+        let url = URL(string: "http://<website-link>/index.php?resend=1&id=90")
         
         let task = URLSession.shared.dataTask(with: url!) { (data, response, error) in
             
