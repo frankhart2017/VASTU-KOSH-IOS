@@ -2,7 +2,7 @@ import UIKit
 
 class BuyRentView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    final let urlString = "http://vastukosh-com.stackstaging.com/index.php"
+    final let urlString = "http://<website-link>/index.php"
     var imgURLArray : [String] = []
     var nameArray : [String] = []
     var idArray : [String] = []
@@ -126,10 +126,10 @@ class BuyRentView: UIViewController, UITableViewDelegate, UITableViewDataSource 
 
     func downloadJsonWithURL() {
         
-        var url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?images=1")!
+        var url = URL(string: "http://<website-link>/index.php?images=1")!
         
         if(pageType == 2) {
-            url = URL(string: "http://vastukosh-com.stackstaging.com/index.php?images=2")!
+            url = URL(string: "http://<website-link>index.php?images=2")!
         }
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
